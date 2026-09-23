@@ -1,0 +1,3 @@
+* **Software Tool:** CapCut / VS Code
+* **Software Engineering Goal:** Master collaborative version control workflows, branching strategies, and clean repository management.
+A merge conflict occurs in Git when changes are made to the same line of a file in two different branches, or when one branch modifies a file that another branch deletes. Because Git cannot automatically reconcile competing changes without risking data loss, it halts the merge process and inserts conflict markers ('<<<<<<<', '=======', '>>>>>>>') directly into the affected file. Developers must manually inspect the differences, edit the file to preserve the correct code, remove the markers, and commit the resolved changes to complete the merge.
